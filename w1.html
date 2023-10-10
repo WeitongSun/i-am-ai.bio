@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      .Nav {
+        width: auto;
+        background-color: rgb(255, 255, 255);
+        margin: 0px auto;
+        display: flex;
+        align-items: center;
+      }
+      ul {
+        flex: 1;
+        text-align: center;
+      }
+      ul li {
+        display: inline-block;
+        list-style: none;
+        margin: 0 50px;
+      }
+      ul li a {
+        font-size: medium;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        position: relative;
+      }
+      ul li a::after {
+        content: "";
+        width: 0;
+        background: rgb(241, 83, 175);
+        position: absolute;
+        left: 50%;
+       
+      }
+      ul li a:hover::after {
+        width: 100%;
+      }
+      a:link {
+        color: rgb(0, 0, 0);
+        background-color: transparent;
+      }
+      a:hover {
+        color: rgb(241, 83, 175);
+        background-color: transparent;
+        text-decoration: none;
+      }
+      a:active {
+        color: yellow;
+        background-color: transparent;
+        text-decoration: none;
+      }
+
+
+      /*banner!!!!!!*/
+      /*banner!!!!!!*/
+      /*banner!!!!!!*/
+      .banner {
+        width: auto;
+        height: 500px;
+      }
+
+
+
+
+    </style>
+  </head>
+  <body>
+    <!-- Navigation Section -->
+    <div class="Nav">
+      <ul>
+        <li><a href="/AboutMe.html">aboutMe</a></li>
+        <li>
+          <a href="/index.html"><img src="img/eyeball.png" width="100px" /></a>
+        </li>
+        <li><a href="https://chat.openai.com/">contactMe</a></li>
+      </ul>
+    </div>
+
+    <div class="banner">
+        <ul>
+            <br>
+            <br>
+            <br><br>
+            <br>
+            <br>
+            <br>
+            <li><a href="/rw.html"><img src="img/w1.png" width="300px"></a><br /></li>
+            <li>
+                <a href="/work.html"><img src="https://i.pinimg.com/originals/2b/07/f6/2b07f62987e987d4e53e84aa8b963b83.gif" width="100px"></a>
+            </li>
+            <li><a href="/bw.html"><img src="img/w2.png" width="300px"></a><br /></li>
+        </ul>
+      
+      
+    </div>
+  </body>
+</html>

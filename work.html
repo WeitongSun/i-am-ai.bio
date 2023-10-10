@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bridge</title>
+
+    <style>
+      .Nav {
+        width: auto;
+        background-color: rgb(255, 255, 255);
+        margin: 0px auto;
+        display: flex;
+        align-items: center;
+      }
+      ul {
+        flex: 1;
+        text-align: center;
+      }
+      ul li {
+        display: inline-block;
+        list-style: none;
+        margin: 0 150px;
+      }
+      ul li a {
+        font-size: medium;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        position: relative;
+      }
+      ul li a::after {
+        content: "";
+        width: 0;
+        background: rgb(241, 83, 175);
+        position: absolute;
+        left: 50%;
+      }
+      ul li a:hover::after {
+        width: 100%;
+      }
+      a:link {
+        color: rgb(0, 0, 0);
+        background-color: transparent;
+      }
+      a:hover {
+        color: rgb(241, 83, 175);
+        background-color: transparent;
+        text-decoration: none;
+      }
+      a:active {
+        color: yellow;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      /*banner!!!!!!*/
+      /*banner!!!!!!*/
+      /*banner!!!!!!*/
+      .banner {
+        width: auto;
+        height: auto;
+      }
+      .banner iframe{
+        position: absolute;
+        top: 150px;
+        left: 242px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navigation Section -->
+    <div class="Nav">
+      <ul>
+        <li><a href="/AboutMe.html">aboutMe</a></li>
+        <li>
+          <a href="/index.html"><img src="img/eyeball.png" width="100px" /></a>
+        </li>
+        <li><a href="https://chat.openai.com/">contactMe</a></li>
+      </ul>
+    </div>
+
+    <div class="banner">
+        <iframe src="https://player.vimeo.com/video/785705611?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="1000" height="500" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" title="HyperDog, 2022"></iframe>
+    </div>
+
+
+
+
+  </body>
+</html>
