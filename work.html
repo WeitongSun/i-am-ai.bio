@@ -6,9 +6,16 @@
     <title>Bridge</title>
 
     <style>
+      *{
+        cursor: url("img/cursor.gif"), auto;
+      }
+       @font-face {
+            font-family: 'pixelFont';
+            src: url("Font/PressStart2P.ttf");
+        }
       .Nav {
         width: auto;
-        background-color: rgb(255, 255, 255);
+        background-color: rgba(234, 221, 221, 0.632);
         margin: 0px auto;
         display: flex;
         align-items: center;
@@ -23,7 +30,8 @@
         margin: 0 150px;
       }
       ul li a {
-        font-size: medium;
+        font-family: 'pixelFont';
+        font-size: small;
         text-decoration: none;
         color: rgb(0, 0, 0);
         position: relative;
